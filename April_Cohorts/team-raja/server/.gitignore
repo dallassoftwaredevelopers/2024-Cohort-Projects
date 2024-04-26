@@ -1,0 +1,7 @@
+.gradle/
+build/
+credentials.json
+.idea
+out/
+bin/
+.env
