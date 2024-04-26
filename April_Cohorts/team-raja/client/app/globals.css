@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+.daisy-custom-input::-webkit-outer-spin-button,
+.daisy-custom-input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
