@@ -1,0 +1,163 @@
+{
+    "ingredients": [
+        "1 handful spinach",
+        "1 handful kale",
+        "1/2 avocado",
+        "1/2 cup milk",
+        "1 cup milk",
+        "1 shot espresso",
+        "1/2 cup yogurt",
+        "1/2 cup canned pumpkin puree",
+        " 1/2 teaspoon ground cinnamon",
+        "1/4 teaspoon ground nutmeg",
+        "pinch of ground ginger",
+        "1 medium carrot",
+        "2 cups seedless watermelon chunks",
+        "1/2 cucumber",
+        "handful of mint leaves",
+        "1 squeeze of lime juice",
+        "1 cup coconut water",
+        "2 cups frozen strawberries",
+        "1 cup frozen mango chuncks",
+        "1/2 cup pineapple chunks",
+        "1 scoop chocolate protein powder",
+        "1 tablespoon peanut butter",
+        "1 cup mixed frozen berries",
+        "1/4 cup banana"
+    ],
+    "ingredients by recipe": {
+        "Green Machine Smoothie": {
+            "main": [
+                "1 handful spinach",
+                "1 handful kale",
+                "1/2 avocado",
+                "1 banana",
+                "1 cup milk"
+            ],
+            "optional": [
+                "1 tablespoon honey",
+                "1 tablespoon maple syrup"
+            ], 
+
+            "imageURL" : "/img/green-machine.jpg"
+        },
+        "Coffee and Cream Smoothie": {
+            "main": [
+                "1 shot espresso",
+                "1 banana",
+                "1/2 cup yogurt",
+                "1/2 cup milk",
+                "1/4 ground cinnamon"
+            ],
+            "optional": [],
+            "imageURL": "/img/coffee-and-cream.jpg"
+        },
+        "Pumpkin Pie Smoothie": {
+            "main": [
+                "1/2 cup canned pumpkin puree",
+                "1 banana",
+                "1/2 cup milk",
+                "1/2 teaspoon ground cinnamon",
+                "1/4 teaspoon ground nutmeg",
+                "pinch of ground ginger"
+            ],
+            "optional": [
+                "2 tablespoons whipped cream"
+            ],
+            "imageURL": "/img/pumpkin-pie.jpg"
+        },
+        "Creamy Carrot Cake Smoothie": {
+            "main": [
+                "1 medium carrot",
+                "1 banana",
+                "1/2 cup milk",
+                "1/2 teaspoon ground cinnamon",
+                "1/4 teaspoon ground nutmeg"
+            ],
+            "optional": [
+                "2 tablespoons chopped walnuts"
+            ],
+            "imageURL": "/img/creamy-carrot-cake.jpg"
+        },
+        "Minty Watermelon Cooler": {
+            "main": [
+                "2 cups seedless watermelon chunks",
+                "1/2 cucumber",
+                "handful of mint leaves",
+                "1 squeeze of lime juice",
+                "1 cup coconut water"
+            ],
+            "optional": [],
+            "imageURL": "/img/minty-watermelon.jpg"
+        },
+        "Classic Strawberry Banana Smoothie": {
+            "main": [
+                "2 cups frozen strawberries",
+                "1 banana",
+                "1/2 cup milk"
+            ],
+            "optional": [
+                "1/2 cup Greek yogurt",
+                "1 tablspoon honey",
+                "1 tablspoon maple syrup"
+            ],
+            "imageURL": "/img/strawberry-banana.jpg"
+        },
+        "Tropical Green Smoothie": {
+            "main": [
+                "1 cup frozen mango chunks",
+                "1/2 cup pineapple chunks",
+                "1 banana",
+                "1 handful spinach",
+                "1 cup coconut water"
+
+            ],
+            "optional": [
+                "1 handful spinach",
+                "1 cup milk"
+            ],
+            "imageURL": "/img/tropical-green.jpg"
+        },
+        "Chocolate Peanut Butter Protein Smoothie": {
+            "main": [
+                "1 scoop chocolate protein powder",
+                "1/2 cup milk",
+                "1 tablespoon peanut butter",
+                "1 banana"
+            ],
+            "optional": [
+                "1 tablespoon cocoa powder",
+                "1/4 cup Greek yogurt"
+            ],
+            "imageURL": "/img/chocolate-peanut-butter.jpg"
+        },
+        "Berry Blast Smoothie": {
+            "main": [
+                "1 cup mixed frozen berries",
+                "1/2 cup yogurt",
+                "1/2 cup milk",
+                "1/4 cup banana"
+            ],
+            "optional": [
+                "1 tablespoon honey",
+                "1 tablespoon maple syrup"
+            ],
+            "imageURL": "/img/berry-blast.jpg"
+        },
+        "Mango Madness Smoothie": {
+            "main": [
+                "1 cup frozen mango chunks",
+                "1/2 banana",
+                "1/2 cup pineapple chunks",
+                "1 cup coconut water"
+            ],
+            "optional": [
+                "1/4 cup Greek yogurt",
+                "fresh lime",
+                "1/4 teaspoon ginger",
+                "1 cup milk"
+            ],
+            "imageURL": "/img/mango-madness.jpg"
+        }
+    }
+}

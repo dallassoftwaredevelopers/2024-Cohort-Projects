@@ -1,0 +1,58 @@
+.nutritionCard {
+    position: relative;
+    height: 100%;
+    width: 400px;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.servingSize {
+    border-bottom: 12px solid #ced4da;
+}
+
+.listDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.caloriesDiv {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #ced4da;
+}
+
+.dailyValue {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+h1 {
+    border-bottom: 1px solid #ced4da;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 12px solid #ced4da;
+}
+
+ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 12px;
+    border-bottom: 1px solid #ced4da;
+}
