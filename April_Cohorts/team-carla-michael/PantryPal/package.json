@@ -1,0 +1,39 @@
+{
+  "name": "express-template",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "cd ./view; npm install; npm run build",
+    "dev": "nodemon ./bin/www",
+    "document": "jsdoc -r -c conf.json ./",
+    "test controller": "mocha './test/controllerTests/*.test.js",
+    "test model": "mocha './test/modelTests/*.test.js'",
+    "populate-ingredient": "node ./search/populate.js",
+    "populate-recipe": "node ./search/automation.js"
+  },
+
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "collections": "^5.1.13",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.18.0",
+    "jimp": "^0.22.12",
+    "mongoose": "^8.2.3",
+    "morgan": "~1.9.1",
+    "pdfkit": "^0.15.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "jsdoc": "^4.0.2",
+    "mocha": "^10.4.0",
+    "nodemon": "^3.1.0"
+  }
+}
