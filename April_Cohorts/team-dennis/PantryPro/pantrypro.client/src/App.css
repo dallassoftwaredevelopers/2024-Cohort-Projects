@@ -1,0 +1,361 @@
+﻿#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  color: black;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: green;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background: #fff;
+}
+
+th,
+td {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Sidebar */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+}
+
+.menu-icon {
+  color: rgb(80, 165, 80);
+}
+
+/* Pantry */
+.pantry-container {
+  color: black;
+}
+
+.title {
+  color: rgb(0, 108, 0);
+}
+
+.filter-search-add-container {
+  display: grid;
+  grid-template-columns: 80px 600px 80px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.item-dropdown-list {
+  background-color: #fff;
+  color: black;
+  border: 2px solid green;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dropdown-filter-items {
+  border: 2px solid green;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(80, 165, 80);
+  cursor: pointer;
+}
+
+.title-list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px 280px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  background-color: #fff;
+  color: black;
+  border: 2px solid green;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.search-bar:focus {
+  outline: none;
+  background-color: rgb(235, 255, 235);
+}
+
+.search-results:hover {
+  background-color: rgb(228, 254, 228);
+  cursor: pointer;
+}
+
+.results-list {
+  width: 71%;
+  margin: 0 auto;
+  background-color: rgb(229, 255, 229);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 5px;
+  margin-top: 1rem;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  /* border: 1px solid rgb(188, 255, 171); */
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px 1px #00000080;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.close-icon {
+  position: relative;
+  bottom: -10px;
+  left: 155px;
+  cursor: pointer;
+}
+.edit-icon {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.item-container > img {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.edit-button-container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 20px;
+}
+
+.modify-quantity-container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Dashboard */
+.title-list-dashboard {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.item-dashboard-container {
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px 1px #00000080;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.item-dashboard-container a {
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.item-dashboard-container a:hover {
+  color: darkgreen;
+}
+
+.item-dashboard {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 200px 200px;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.dashboard-button-container {
+  display: grid;
+  grid-template-columns: (1fr, 1);
+  grid-auto-rows: minmax(10px, 40px);
+  gap: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.grid-item-one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.grid-item-two {
+  grid-column: 4 / 4;
+  grid-row: 1;
+}
+
+.dashboard-header {
+  color: rgb(0, 128, 0);
+  display: grid;
+  text-transform: uppercase;
+  grid-auto-rows: minmax(10px, 40px);
+  padding-bottom: 10px;
+}
+
+.list-item-one {
+  grid-column: span 2;
+  grid-row: 1;
+}
+
+.list-item-two {
+  grid-column: span 2;
+  grid-row: 1;
+}
+
+.list-item-three {
+  grid-column: span 1;
+  grid-row: 1;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.modal-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-buttons button:first-child {
+  background-color: #ff3333;
+  color: white;
+}
+
+.modal-buttons button:last-child {
+  background-color: #ddd;
+}
+
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+/* Footer.css */
+
+footer {
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  /* Use flexbox to align items horizontally */
+  justify-content: center;
+  /* Center items horizontally */
+  align-items: center;
+  /* Align items vertically */
+}
+
+footer p {
+  margin: 0;
+  /* Reset margin to remove default spacing */
+  padding: 0;
+  /* Reset padding to remove default spacing */
+}
+
+.spacer {
+  margin: 0 40px;
+  /* Adjust this value as needed */
+}
+
+/*Socail Icons */
+.social-icons {
+  display: flex;
+  /* Use flexbox to align social icons horizontally */
+}
+
+.social-icon {
+  margin-right: 10px;
+  /* Adjust spacing between icons */
+  color: black;
+  /* Set icon color */
+}
+
+.social-icon:hover {
+  color: #f5a540;
+  /* Change color on hover */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    /* Stack elements vertically on smaller screens */
+    text-align: center;
+    /* Center align text */
+  }
+
+  .social-icons {
+    margin-top: 10px;
+    /* Add spacing between social icons and other content */
+  }
+}
+
+/* styles.css */
+html,
+body {
+  background-color: rgb(228, 228, 228);
+  /* Light grey background color */
+}

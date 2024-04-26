@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryPro.Server", "PantryPro.Server\PantryPro.Server.csproj", "{A04F1C64-67DB-4899-B5EF-9DEA93FEA230}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "pantrypro.client", "pantrypro.client\pantrypro.client.esproj", "{A3B4E694-723C-4999-A1D4-BC2A79189B87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A04F1C64-67DB-4899-B5EF-9DEA93FEA230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04F1C64-67DB-4899-B5EF-9DEA93FEA230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04F1C64-67DB-4899-B5EF-9DEA93FEA230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04F1C64-67DB-4899-B5EF-9DEA93FEA230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B4E694-723C-4999-A1D4-BC2A79189B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B4E694-723C-4999-A1D4-BC2A79189B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B4E694-723C-4999-A1D4-BC2A79189B87}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A3B4E694-723C-4999-A1D4-BC2A79189B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B4E694-723C-4999-A1D4-BC2A79189B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B4E694-723C-4999-A1D4-BC2A79189B87}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15B1366E-0D58-4478-A3A3-9C6F29684765}
+	EndGlobalSection
+EndGlobal

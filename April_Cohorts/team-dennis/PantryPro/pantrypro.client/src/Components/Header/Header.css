@@ -1,0 +1,42 @@
+/* Header.css */
+.header {
+
+    
+    background-color: rgba(255, 255, 255, 255);
+    color: green;
+    padding: 12px 0;
+    text-align: left;
+    height: 8px;
+    display: flex;
+        
+        justify-content: space-between;
+       
+        align-items: center;
+       
+}
+
+.header h1 {
+    font-size: 25px;
+    
+    margin-left: 30px;
+        
+    
+}.pantry-text {
+    color: #FCA522;
+    
+}
+
+.pro-text {
+    color:#95B46A;
+    
+}
+
+.logout-button {
+    background-color: #FCA522;
+    
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 60px;
+}
