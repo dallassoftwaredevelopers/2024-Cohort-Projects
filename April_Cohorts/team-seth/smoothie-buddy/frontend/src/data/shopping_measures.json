@@ -1,0 +1,258 @@
+{
+  "spinach": {
+    "ingredient": {
+      "measure": "handful"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 10,
+      "item": "bag"
+    },
+    "conversionRate": 10
+  },
+  "kale": {
+    "ingredient": {
+      "measure": "handful"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 10,
+      "item": "bag"
+    },
+    "conversionRate": 10
+  },
+  "avocado": {
+    "ingredient": {
+      "measure": "whole"
+    },
+    "shopping": {
+      "measure": "whole",
+      "amount": 1,
+      "item": "whole"
+    },
+    "conversionRate": 1
+  },
+  "whole milk": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "gallon",
+      "amount": 1,
+      "item": "bottle"
+    },
+    "conversionRate": 16
+  },
+  "espresso": {
+    "ingredient": {
+      "measure": "shot"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 1.94,
+      "item": "jar"
+    },
+    "conversionRate": 14
+  },
+  "yogurt": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "cup",
+      "amount": 1,
+      "item": "cup"
+    },
+    "conversionRate": 1
+  },
+  "canned pumpkin puree": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 15,
+      "item": "can"
+    },
+    "conversionRate": 1.75
+  },
+  "ground cinnamon": {
+    "ingredient": {
+      "measure": "teaspoon"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 2.5,
+      "item": "bottle"
+    },
+    "conversionRate": 15
+  },
+  "ground nutmeg": {
+      "ingredient": {
+        "measure": "teaspoon"
+      },
+      "shopping": {
+        "measure": "ounces",
+        "amount": 2.5,
+        "item": "bottle"
+      },
+      "conversionRate": 15
+  },
+  "ground ginger": {
+      "ingredient": {
+        "measure": "pinch"
+      },
+      "shopping": {
+        "measure": "ounces",
+        "amount": 2.5,
+        "item": "bottle"
+      },
+      "conversionRate": 30
+  },
+  "carrot": {
+    "ingredient": {
+      "measure": "whole"
+    },
+    "shopping": {
+      "measure": "whole",
+      "amount": 1,
+      "item": "whole"
+    },
+    "conversionRate": 1
+  },
+  "seedless watermelon": {
+    "ingredient": {
+    "measure": "cup"
+    },
+    "shopping": {
+    "measure": "whole",
+    "amount": 1,
+    "item": "whole"
+    },
+    "conversionRate": 32
+  },
+  "cucumber": {
+    "ingredient": {
+      "measure": "whole"
+    },
+    "shopping": {
+      "measure": "whole",
+      "amount": 1,
+      "item": "whole"
+    },
+    "conversionRate": 1
+  },
+  "mint leaves": {
+    "ingredient": {
+      "measure": "handful"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 0.5,
+      "item": "container"
+    },
+    "conversionRate": 2
+  },
+  "lime juice": {
+    "ingredient": {
+      "measure": "whole"
+    },
+    "shopping": {
+      "measure": "whole",
+      "amount": 1,
+      "item": "whole"
+    },
+    "conversionRate": 2
+  },
+  "coconut water": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 33.8,
+      "item": "carton"
+    },
+    "conversionRate": 4
+  },
+  "frozen strawberries": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 16,
+      "item": "bag"
+    },
+    "conversionRate": 3
+  },
+  "frozen mango chunks": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 16,
+      "item": "bag"
+    },
+    "conversionRate": 3
+  },
+  "frozen pineapple chunks": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 16,
+      "item": "bag"
+    },
+    "conversionRate": 3
+  },
+  "chocolate protein powder": {
+    "ingredient": {
+      "measure": "scoop"
+    },
+    "shopping": {
+      "measure": "grams",
+      "amount": 907,
+      "item": "jar"
+    },
+    "conversionRate": 29
+  },
+  "peanut butter": {
+    "ingredient": {
+      "measure": "tablespoon"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 16,
+      "item": "jar"
+    },
+    "conversionRate": 28
+  },
+  "mixed frozen berries": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "ounces",
+      "amount": 16,
+      "item": "bag"
+    },
+    "conversionRate": 3
+  },
+  "banana": {
+    "ingredient": {
+      "measure": "cup"
+    },
+    "shopping": {
+      "measure": "whole",
+      "amount": 1,
+      "item": "whole"
+    },
+    "conversionRate": 1
+  }
+
+}
+
+    

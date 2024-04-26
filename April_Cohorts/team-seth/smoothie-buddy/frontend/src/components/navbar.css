@@ -1,0 +1,53 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.nav {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.site-title {
+  font-size: 2rem;
+  margin: 0rem;
+}
+
+.orange {
+  color: #f19b3b;
+}
+
+.pink {
+  block-size: inline;
+  margin: right;
+  color: #f05b75;
+}
+
+.nav a {
+  color: #f19b3b;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  list-style: none;
+}
+
+.active {
+  background-color: #555;
+}
+
+.hover {
+  background-color: #777;
+}
