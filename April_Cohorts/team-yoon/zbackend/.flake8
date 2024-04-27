@@ -1,0 +1,8 @@
+[flake8]
+exclude =
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py
+    Dockerfile
+max-line-length = 90
