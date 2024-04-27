@@ -1,0 +1,25 @@
+.recipe-item{
+  display: flex;
+  flex-direction: column; /* If you want items stacked vertically */
+  align-items: flex-start; /* Center items horizontally */
+  justify-content: flex-end; /* Center items vertically */
+  width: 80%;
+  margin: 0 auto;
+}
+.recipe-title{
+    font-size: 3rem;
+
+}
+.recipe-image{
+    margin-bottom: 30px;
+    max-width: 400px;
+    height:auto;
+}
+.recipe-ingredient, .recipe-macros, .recipe-instruction {
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  .recipe-macro {
+   
+  }
