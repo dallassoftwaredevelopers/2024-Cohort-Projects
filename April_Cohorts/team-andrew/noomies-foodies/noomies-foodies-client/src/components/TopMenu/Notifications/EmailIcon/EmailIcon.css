@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #3b5998;
+    font-size: 22px;
+    padding: 5px 10px;
+}
+
+.button {
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    width: 24.49px;
+    height:18px;
+
+}
+
+.button__badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: .88rem;
+    font-weight: 600;
+    background-color: #fa3e3e;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 0 0 2.5px white; /* Add circular margin border */
+    width:19px;
+    height:19px;
+    position: absolute;
+     
+}
+
+.email-badge {
+    right: -40%; 
+
+    top: -65%;
+    margin-right: 0px;
+
+}
+
+.icon{
+    display: flex;  
+    justify-content: space-between;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*standardize the page */
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans',  'sans-serif';
+}
+
+.view-all {
+    background-color: #FFFFFF;
+}
+.recipe-title {
+    margin-top: 0;
+}
+.recipe-header {
+    width: 1015px;
+
+}
+.recipe-container {
+    text-align: left;
+}
+.recipe-category-title {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6.31rem;
+    font-size: 25px;
+    align-items: center;
+    width: 1015px;
+}
+.view-all {
+    color: #309F48;
+    font-weight: 700;
+    font-size: 1.25rem;
+    transition: color 0.3s ease; /* Transition for color change */
+    cursor: default; /* Set cursor to default */
+}
+.view-all:hover {
+    color: #207e38; /* New color on hover */
+}
+.view-all:active {
+    transform: scale(0.95); /* Scale down on click */
+}
+.top-add-btn > *{
+    margin-left: auto;
+}
+
+.no-recipe-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+.empty-card-container {
+    margin-right: 5.25rem;
+
+}
+.recipe-time {
+    margin-bottom: 3.38rem;
+    
+}
+.recipe-time:last-child {
+    margin-bottom:0;
+}

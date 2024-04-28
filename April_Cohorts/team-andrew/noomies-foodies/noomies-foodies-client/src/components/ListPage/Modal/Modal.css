@@ -1,0 +1,27 @@
+.popup-content {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 1029px;
+    height: 631px;
+    
+}
+
+.popup-overlay {
+    background: #00000066;
+}
+
+.children{
+    display: flex;  
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    background:none;
+    border: none;
+    cursor: pointer;
+}

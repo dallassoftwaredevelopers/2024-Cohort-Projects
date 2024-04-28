@@ -1,0 +1,28 @@
+.list-page-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%; 
+    margin-top: 50px; 
+}
+
+.list-add-btn-area{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.list-header-area{
+    text-align: left;
+    margin-left: 25px;
+    font-family: Open Sans;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.list-content-area{
+    margin-left: 25px;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

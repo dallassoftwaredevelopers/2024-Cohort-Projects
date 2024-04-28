@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans',  'sans-serif';
+}
+
+.week-container-heading {
+    margin-top: 1.94rem;
+    margin-bottom: 2.13rem;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+
+}

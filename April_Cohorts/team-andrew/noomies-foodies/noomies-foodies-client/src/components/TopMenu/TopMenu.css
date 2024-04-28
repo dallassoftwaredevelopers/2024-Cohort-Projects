@@ -1,0 +1,51 @@
+
+
+.top-menu {
+    box-sizing: border-box;
+    width:81.19rem;
+    height: 5.19rem;
+    background-color: #F7FFED;
+    padding-left: .75rem;
+    padding-right: 15.81rem;
+
+}
+
+.menu-items {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+
+.menu-items-left {
+    padding-top: 19px;
+
+}
+.menu-items-right {
+    display: flex;
+    
+}
+.fridge-btn {
+    margin-top: 1rem;;
+
+
+}
+.button {
+    margin-top: 25px;
+}
+
+/* Decrease the gap between bell-icon and mail-icon */
+.bell-icon {
+    margin-right: 95.85px; 
+    
+}
+.mail-icon {
+    margin-right: 31.1px;
+}
+
+@media (min-width: 1441px) {
+    .top-menu {
+        width:100%;
+    }
+   }
+   

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*standardize the page */
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans',  'sans-serif';
+}
+.recipe-small-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 21.81rem;
+    min-height: 16.13rem;
+    border-radius: 30px;
+    position: relative;
+    background-color: rgba(200, 232, 156, 0.5);
+}
+
+.recipe-img {
+    width: 13.63rem;
+    height: 9.50rem;
+    margin-top: .56rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small-card-recipe-title {
+    color: #000000;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: .81rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+   
+    font-size: 1.56rem;
+    max-height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.options-btn {
+    position: absolute;
+    right: 1.19rem;
+    top: .75rem;
+    border: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease; /* Add a transition effect */
+    border-radius: 25px;
+}
+
+.options-btn:hover {
+    /* background-color: rgba(0, 0, 0, 0.1); Change background color on hover */
+    transform: scale(1.1); /* Scale up the button slightly on hover */
+
+    border-radius: 25px;
+}
+.options-btn:active {
+    background-color: rgba(0, 0, 0, 0.05); /* Change background color when clicked */
+    border-radius: 25px;
+}
