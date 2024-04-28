@@ -1,0 +1,9 @@
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+}
+.recipe-viewport {
+    margin-top: 34px;
+    margin-left: 30px;
+    margin-right: 30px;
+}

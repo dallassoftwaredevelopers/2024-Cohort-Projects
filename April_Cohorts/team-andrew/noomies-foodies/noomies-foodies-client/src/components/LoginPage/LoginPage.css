@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*custom variables */
+:root {
+    /*declare colors */
+    --primary-clr:  #309F48;
+    --secondary-clr: #5B6056;
+
+    /*font weights*/
+    --fw-regular: 400;
+    --fw-bold: 800;
+
+}
+
+/*standardize the page */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',  'sans-serif';
+    box-sizing: border-box;
+}
+.App {
+    height: 100%
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    margin: 0; /* Set margin to zero to remove white space */
+    padding-top: 14.06rem;
+    padding-left: 13rem;
+    padding-right: 15.75rem;
+    font-weight: var(--fw-bold);
+    color: var(--primary-clr);
+    font-size:2.81rem;
+    margin:  0 auto;
+    line-height: 3.81rem;
+}
+ h1 .clr-secondary {
+    color: var(--secondary-clr);
+ }
+
+ h1 + p { 
+    padding-top: .56rem;
+    padding-left: 16.38rem;
+    padding-right: 19.13rem;
+    font-size: 1.5rem;
+    line-height: 2.04rem;
+    font-weight: var(--fw-regular);
+    color: #6D6D6D;
+ }
+
+.flex-container {
+    position:relative; 
+    display: flex;
+    justify-content: center;
+}
+
+.background-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc((101.27% - 1440px) / 2); /* Adjust width based on the difference between screen width and 1440px */
+    min-width: 0;
+    height: 100%; 
+    background-color: rgba(240, 255, 220, 0.5); /* Set the desired background color */
+    margin-right: 0; /* Ensure no right margin */
+    padding-right: 0; /* Ensure no right padding */
+}
+
+.flex-item-left {
+    background-color: rgba(240, 255, 220, 0.5); 
+    margin-right:0;
+    width: 37.94rem;
+    margin-left: auto; /* Push the container to the right */
+}
+.flex-item-right {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 50.75rem;
+    margin-right: auto; /* Push the container to the left */
+}
+
+
+.form-group {
+    box-sizing: border-box;
+    width: 37.19rem;
+    margin-top: 5.50rem;
+    margin-left:5.44rem;
+    margin-right: 8.13rem;
+    
+}
+.form-element {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1.6875rem;
+}
+
+.form-element:nth-last-of-type(2) {
+    margin-bottom: 0;
+}
+
+.form-element:last-of-type {
+    padding-top: 3.19rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0;
+}
+
+input::placeholder {
+    color: #A9A9A9;
+}
+
+.form-control {
+    padding: 0 0 0 1.5rem;
+    margin: 1px;
+    border-color: #D6D6D6;
+    background-color: #FBFBFB;
+    color:black;
+    height: 3.81rem;
+    border-radius: 7px;
+    font-size: 1.125rem;
+    height: 3.81rem;
+}
+.form-label {
+    margin-left: 1.5rem;
+    margin-bottom: .44rem;
+    font-size: 1.13rem;
+    line-height: 1.53rem;
+}
+
+.submit-btn {
+    background-color: var(--primary-clr);
+    color: #FFFFFF;
+    border-color: var(--primary-clr);
+    font-size: 1.5rem;
+    border: 1px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.submit-btn:hover {
+    background-color: #376c06; /* Change to a darker color on hover */
+}
+
+.submit-btn:active {
+    background-color: #309F48; /* Change to a darker color when clicked */
+}
+
+.form-group + p {
+    margin-left: 13.31rem;
+    margin-right: 16rem;
+    margin-top: 1.56rem;
+    font-size: 1.125rem;
+    color: car(--fw-regular);
+}
+
+p a {
+    color: var(--primary-clr);
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transition: color 0.5s; /* Apply transition effect to color property */
+}
+a:hover {
+    color: #376c06; /* Change link color on hover */
+}
+
+.logo {
+    display: block;
+    margin-top: 17rem;    
+    margin-left: 5.88rem;
+    max-width: 28.81rem;
+    max-height: 20.94rem;
+}
+
+.background-leaf {
+    opacity: .18;  
+    max-width: 37.44rem;
+    max-height: 23.13rem;
+    display: block;
+    background-color: rgba(240, 255, 220, 0.5);
+}
+
+/* Media query for screens wider than 1440px */
+@media (max-width: 1440px) {
+    .flex-item-left,
+    .flex-item-right {
+        padding-left: 0; /* Reset padding when screen width is 1440px or less */
+        padding-right: 0;
+    }
+  }
+
+  /* mobile view */
+@media only screen and (max-width: 767px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    h1 {
+        padding: 3rem 1rem; /* Adjust padding for smaller screens */
+        padding-bottom: 1rem;
+        font-size: 2rem; /* Decrease font size for smaller screens */
+        text-align: center; /* Center align heading */
+    }
+    h1 + p {
+        padding: 1rem; /* Adjust padding for smaller screens */
+        padding-top: 0;
+        font-size: 1rem; /* Decrease font size for smaller screens */
+        text-align: center; /* Center align paragraph */
+    }
+    .flex-item-left {
+        width: 100%; /* Make left flex item full width */
+    }
+    .flex-item-right {
+        width: 100%; /* Make right flex item full width */
+    }
+    .form-group {
+        width: calc(100% - 2rem); /* Adjust width for smaller screens */
+        margin: 2rem 1rem; /* Adjust margin for smaller screens */
+    }
+    .form-group + p {
+        margin: 0.5rem 1rem; /* Adjust margin for smaller screens */
+        text-align: center; /* Center align paragraph */
+    }
+    .logo {
+        margin: 3rem auto; /* Center align logo */
+        padding-left: 3rem;
+    }
+    .background-leaf {
+        margin: 3rem auto; /* Center align background image */
+    }
+
+}
+

@@ -1,0 +1,29 @@
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #309F48;
+    color: #FFFFFF;
+    width: 10.63rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.btn-container:hover {
+    background-color: #258038; /* Darken the background color on hover */
+}
+
+.btn-container:active {
+    background-color: #1E652B; /* Darken the background color further on click */
+}
+
+.btn-pic {
+    padding-right: .5rem;
+    width: 1rem;
+    height: 1.3rem;
+}

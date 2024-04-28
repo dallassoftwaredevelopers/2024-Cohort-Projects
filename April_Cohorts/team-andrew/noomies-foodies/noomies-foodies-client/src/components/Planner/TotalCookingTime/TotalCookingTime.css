@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.cooking-total {
+    box-sizing: border-box;
+    width: 15.5rem;
+    height: 1.69rem;
+
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans',  'sans-serif';
+    font-weight: 700;
+    font-size: 1.25rem;
+
+}
+.cooking-time {
+    color: #008A48; 
+}
+.cooking-text {
+    width: 12.5rem;
+}
+
+.clock-icon {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: inline;
+    padding-right: .94rem;
+    text-align: none;
+}
+    
+.cooking-text {
+    text-align: center;
+    padding: 0; /* Reset padding */
+    display: inline;
+}

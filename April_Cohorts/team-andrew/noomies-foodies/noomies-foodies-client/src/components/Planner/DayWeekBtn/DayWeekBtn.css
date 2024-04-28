@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+button {
+    border: 0;
+}
+
+.day-week-toggle {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #309F48;
+    width: 12.44rem;
+    height: 3.25rem;
+    border-radius: 10px;
+}
+
+.day-week-btn {
+    width: 5.81rem;
+    height: 2.88rem;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Open Sans',  'sans-serif';
+
+
+}
+.active {
+    background-color: #309F48;
+    color: #FFFFFF;
+}

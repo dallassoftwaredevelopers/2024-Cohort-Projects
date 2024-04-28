@@ -1,0 +1,33 @@
+# PostgreSQL. Versions 9.3 and up are supported.
+# Install the pg driver: gem install pg
+# Configure Using Gemfile
+# gem "pg"
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: <%= ENV['DEV_DB_NAME'] %>
+  username: <%= ENV['DEV_USERNAME'] %>
+  password: <%= ENV['DEV_PASSWORD'] %>
+  host: <%= ENV['DEV_HOST'] %>
+  port: <%= ENV['DEV_PORT'] %>
+
+test:
+  <<: *default
+  database: <%= ENV['TEST_DB_NAME'] %>
+  username: <%= ENV['TEST_USERNAME'] %>
+  password: <%= ENV['TEST_PASSWORD'] %>
+  host: <%= ENV['TEST_HOST'] %>
+  port: <%= ENV['TEST_PORT'] %>
+
+production:
+  <<: *default
+  database: <%= ENV['RDS_DB_NAME'] %>
+  username: <%= ENV['RDS_USERNAME'] %>
+  password: <%= ENV['RDS_PASSWORD'] %>
+  host: <%= ENV['RDS_HOSTNAME'] %>
+  port: <%= ENV['RDS_PORT'] %>

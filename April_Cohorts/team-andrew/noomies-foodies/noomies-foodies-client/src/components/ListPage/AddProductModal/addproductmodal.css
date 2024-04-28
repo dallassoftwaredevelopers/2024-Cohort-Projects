@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.prodmodal-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+    
+}
+
+.prodmodal-top-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.add-item-button{
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.item-input{
+    width: 60%;
+    height: 58px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background: #90C8444D;
+    margin: 15px;
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #008A48;
+    padding-left: 10px;
+}
+
+.item-input::placeholder{
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #008A48;
+}
+
+.prodmodal-button-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodmodal-content-area{
+    overflow: auto;
+}

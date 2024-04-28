@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans',  'sans-serif';
+
+}
+.row-meal-info-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4.06rem;
+}
+.row-meal-info-container:last-child {
+    margin-bottom: 0;
+}
+.date {
+    color:#008A48;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-right: 5.63rem;
+}
+.calorie-container {
+    margin-right: 7.25rem;
+}
+
+.day-meal-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.88rem;
+}
+.meal-container {
+    display: flex; 
+    flex-direction: row;
+}
+.meal-small-card {
+    margin-right: 1.56rem;
+}
+.meal-small-card:last-child {
+    margin-right: 0;
+}

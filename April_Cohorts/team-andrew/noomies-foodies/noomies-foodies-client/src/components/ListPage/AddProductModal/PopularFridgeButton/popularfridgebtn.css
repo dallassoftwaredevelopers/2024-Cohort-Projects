@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.pop-fridge-button{
+    width: 435px;
+    height: 58px;
+    background-color: #309F48;
+    border-radius: 7px;
+    border-style: none;
+    
+}
+
+.pop-btn-text{
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media (width < 1000px) {
+.pop-fridge-button{
+    max-width: 350px;
+}
+}

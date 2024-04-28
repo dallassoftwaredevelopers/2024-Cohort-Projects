@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.pop-horizontal-line{
+    width: 95%;
+    border: 1px solid #F2F0F9;
+}
+
+.pop-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pop-text{
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.add-button{
+    background:none;
+    border: none;
+    cursor: pointer;
+}

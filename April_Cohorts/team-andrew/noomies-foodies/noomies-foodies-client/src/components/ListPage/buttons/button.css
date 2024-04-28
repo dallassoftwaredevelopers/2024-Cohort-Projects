@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.button-style {
+    width: 170px;
+    height: 52px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #309F48;
+    border-radius: 7px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-style:hover{
+    background-color: #376c06;;
+    cursor: pointer;
+}
+
+.button-style:active{
+    background-color: #309F48;
+}
+
+.button-text {
+    font-family: 'Open Sans',  'sans-serif';
+    font-weight:  400;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+.button-image{
+   margin-right: 10px;
+}

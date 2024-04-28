@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans',  'sans-serif';
+
+}
+
+
+.row-recipe-container {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.recipe-small-card {
+    margin-right: 1.25rem;
+}
+.recipe-small-card:last-child {
+    margin-right: 0;
+  
+}

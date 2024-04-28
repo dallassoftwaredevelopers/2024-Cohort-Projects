@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.calories {
+    width: 11rem;
+    height: 2.56rem;
+
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans',  'sans-serif';
+    font-weight: 700;
+    font-size: 1.25rem;
+
+}
+

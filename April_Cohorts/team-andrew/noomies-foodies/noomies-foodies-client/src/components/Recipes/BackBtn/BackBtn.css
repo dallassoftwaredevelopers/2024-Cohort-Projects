@@ -1,0 +1,27 @@
+
+
+.back-btn {
+    width:5.94rem;
+    height: 1.94rem;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    text-align: left;
+
+}
+.back-img {
+    width:100%;  
+}
+
+/* Hover animation */
+.back-btn:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+/* Click animation */
+.back-btn:active {
+    transform: scale(0.95); /* Scale down on click */
+}
+
+

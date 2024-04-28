@@ -1,0 +1,27 @@
+
+
+.side-btn {
+    display: block;
+    width: 100%;
+    height: 3.13rem;
+    padding-left: 1.25rem;
+    padding-top: .81rem;
+    box-sizing: border-box; /* Include padding in width calculation */
+
+    border-radius: .63rem; 
+    color: black;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: #F7FFED;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #309F48;
+    color: white;
+}
+
+
+

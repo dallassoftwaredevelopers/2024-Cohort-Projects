@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*standardize the page */
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans',  'sans-serif';
+}
+hr {
+    border-color: rgba(48, 159, 72, 0.5); /* RGBA color notation */
+}
+label {
+    font-size: 20px;
+}
+input {
+    border-color: rgba(48, 159, 72, 0.5); /* RGBA color notation */
+    font-size: 20px;
+    padding-left: 10px;
+}
+.App {
+    text-align: left;
+}
+.title {
+    
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.recipe-name-container {
+    display: flex;
+}
+.recipe-name-label {
+    margin-top: 13px;
+}
+.recipe-name-input {
+    
+    width: 34.19rem;
+    height: 3.31rem;
+    margin-left: 3.25rem;
+    margin-bottom: 2.13rem;
+}
+.page-title {
+    margin-left: .88rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+}
+.meal-time-selection-container > h3 {
+    display: block;
+}
+.meal-time-selection-container {
+    margin-top: 47px;
+}
+
+.recipe-img-container  {
+    display: flex;
+    align-items: center;
+}
+.recipe-img-label {
+    margin-right: 9.88rem;
+}
+.burger {
+    width: 9.5rem;
+    height: 9.5rem;
+    margin-right: 10.06rem;
+    margin-bottom: 49px;
+    margin-top: 15px;
+}
+.file-input-container {
+    width: 15rem;
+    height: 3.25rem;
+    background-color: #C8E89C;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add position relative for absolute positioning */
+    flex-wrap: nowrap;
+}
+.upload-icon {
+    width: 27px;
+    height: 27px;
+    margin-left: 16px;
+    margin-right: 9px;
+}
+img > span {
+    margin: 0;
+}
+
+/* Style the input button */
+.file-input-container input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Style the custom button text */
+.file-input-container::after {
+    content: '';
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.meal-time-selection-container {
+    margin-bottom: 54px;
+}
+.breakfast, .lunch, .dinner, .snack, .dessert {
+    width: 27px;
+    height: 27px;
+}
+.meal-time-selection-container {
+    display: flex;
+    align-items: center;
+
+}
+.meal-time-selection-container > h3 {
+    margin-right: 3rem;
+}
+.breakfast-container, .lunch-container, .dinner-container, .snack-container, .dessert-container {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    flex-basis: calc(33.33% - 10px); /* 10px for margin */
+    margin-bottom: 15px; /* Adjust margin as needed */
+
+
+}
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+    width:33.4rem;
+    flex-wrap: wrap;
+}
+
+.preptime-container, .cooktime-container, .yield-containter {
+    margin-left:10.63rem;
+    width: 400px;
+}
+.cooktime-input, .yield-input, .preptime-input {
+    width: 109px;
+    height: 30px;
+    margin-right: 24px;
+    margin-bottom: 35px;
+}
+.preptime-input{
+    margin-left: 54px;
+}
+.cooktime-input{
+    margin-left: 50px;
+}
+.yield-input {
+    margin-left: 89px;
+
+}
+
+.ingredients-container {
+    padding-top: 36px;
+    height: 186px;
+
+}
+
+.directions {
+    margin-left: 95px;
+    width: 805px;
+    height: 90px;
+    display: inline-block;
+    resize: none;
+    margin-bottom: 73px;
+    margin-top: 35px;
+    border-color: rgba(48, 159, 72, 0.5); /* RGBA color notation */
+    font-size: 20px;
+
+}
+.directions-label {
+    margin-top: 36px;
+    display: block;
+}
+.bottom-info > p {
+    margin-top: 73px;
+    margin-bottom: 148px;
+}
+.nav-btn {
+    display: flex;
+    align-items: center;
+    margin-left: 282px;
+
+}
+.cancel-btn, .submit-btn {
+    width: 130px;
+    height: 52px;
+    border: 0;
+    font-weight: 700;
+
+}
+.cancel-btn {
+    color: #EB2027;
+    font-size: 20px;
+    margin-right: 53px;
+    background-color: #FFFFFF;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 7px;
+}
+.cancel-btn:hover {
+    color: #FFFFFF;
+    background-color: #EB2027;
+}
+.cancel-btn:active {
+    color: #FFFFFF;
+    background-color: #EB2027;
+    transform: translateY(1px); /* Move the button down by 1px when clicked */
+}
+
+.submit-btn {
+    font-size: 20px;
+    background-color: #309F48;
+    border-radius: 7px;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;  
+}
+
+.submit-btn:hover {
+    background-color: #2a7f3e;
+    
+}
+.submit-btn:active {
+    background-color: #2a7f3e;
+    transform: translateY(1px); /* Move the button down by 1px when clicked */
+}
+
+.nav-btn {
+    margin-bottom: 100px;
+}
+.add-ingredients-container {
+    margin-left: 175px;
+    margin-top: 15px;
+}
+
+.add-ingredients-container > * {
+    background-color: #C8E89C;
+    border-radius: 7px;
+    width: 209px;
+    color: #000000;
+  
+}

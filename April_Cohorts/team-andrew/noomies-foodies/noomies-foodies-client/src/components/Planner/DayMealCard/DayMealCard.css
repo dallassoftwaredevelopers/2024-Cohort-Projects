@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    box-sizing: border-box;
+}
+.day-card {
+    width: 61.75rem;
+    height: 13.44rem;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgba(200, 232, 156, 0.5); /* #C8E89C with 50% opacity */
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Open Sans',  'sans-serif';
+    border-radius: 10px;
+    position: relative;
+
+}
+.today-recipe-img {
+    width: 10rem;
+    height: 6.81rem;
+    padding-left: 1.06rem;
+    padding-top: 1.75rem;    
+}
+.meal-time {
+    padding:  1.38rem 2.06rem;
+    padding-bottom: 0;
+    margin: 0;
+    width: 98px;
+    height: 27px;
+    font-size: 20px;
+}
+
+.card-left {
+    color: #008A48;
+    display: flex;
+    flex-direction: column;
+    width: 11.06rem;
+    height: 100%;
+}
+
+.card-right {
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    width: 46.01rem; /*removed 2 rem to add room for options button.*/
+    height: 100%;    
+
+    padding-left: 3.63rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.meal-name {
+    text-overflow: ellipsis;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 900;
+    font-size: 1.56rem;
+    min-width:40.13rem;
+    height:2.13rem;
+    margin-top: 2.13rem;
+    margin-bottom: 1.06rem;
+    text-align: left;
+}
+.card-right-bottom {
+    width:40.13rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card-info {
+    flex-basis: 50%; /* Each card-info takes up 50% of the available space */
+    box-sizing: border-box; /* Include padding and border in the width */
+    text-align:  left;
+}
+.options-btn {
+    top: .94rem;
+    right: .38rem;
+    position: absolute;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease; /* Add a transition effect */
+    border-radius: 25px;
+
+}
+.options-btn:hover {
+    /* background-color: rgba(0, 0, 0, 0.1); Change background color on hover */
+    transform: scale(1.1); /* Scale up the button slightly on hover */
+
+    border-radius: 25px;
+}
+.options-btn:active {
+    background-color: rgba(0, 0, 0, 0.05); /* Change background color when clicked */
+    border-radius: 25px;
+}
+
+@media (min-width: 1441px)  {
+    .day-card {
+        width: 100%;
+    }
+    .card-right {
+        flex:1;
+    }
+    .meal-name {
+        width: 95%;
+    }
+
+    
+    
+}
+

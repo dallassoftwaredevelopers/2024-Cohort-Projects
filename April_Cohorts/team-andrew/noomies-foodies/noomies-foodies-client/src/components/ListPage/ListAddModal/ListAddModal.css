@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.list-add-modal-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    justify-content: space-between;
+    
+}
+
+.add-list-header{
+    font-family: Open Sans , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px;
+}
+
+.list-input{
+    outline: none;
+    border: none;
+    margin: 20px;
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #959595;
+}
+
+.add-list-color-header{
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px;
+}
+
+.add-list-color-selector{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line{
+    width: 100%;
+    border: 1px solid #F2F0F9;
+}
+
+.done-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
